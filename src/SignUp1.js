@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import Q81Image from "./assets/images/SignUp1__8_1.png";
 
@@ -26,7 +26,7 @@ const SignUp11 = styled("div")({
   alignItems: `flex-start`,
   padding: `0px`,
   boxSizing: `border-box`,
-  overflow: `hidden`
+  overflow: `hidden`,
 });
 
 const Q81 = styled("img")({
@@ -35,7 +35,7 @@ const Q81 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `0px`,
-  top: `0px`
+  top: `0px`,
 });
 
 const Q11 = styled("img")({
@@ -44,7 +44,7 @@ const Q11 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `98px`,
-  top: `36px`
+  top: `36px`,
 });
 
 const Group13 = styled("div")({
@@ -59,7 +59,7 @@ const Group13 = styled("div")({
   width: `258px`,
   height: `84px`,
   left: `1530px`,
-  top: `60px`
+  top: `60px`,
 });
 
 const Rectangle1 = styled("div")({
@@ -71,7 +71,7 @@ const Rectangle1 = styled("div")({
   height: `84px`,
   position: `absolute`,
   left: `10px`,
-  top: `0px`
+  top: `0px`,
 });
 
 const LogIn = styled("div")({
@@ -90,7 +90,7 @@ const LogIn = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `0px`,
-  top: `22px`
+  top: `22px`,
 });
 
 const Q31 = styled("img")({
@@ -100,7 +100,7 @@ const Q31 = styled("img")({
   position: `absolute`,
   left: `121px`,
   top: `154px`,
-  transform: `rotate(10.37deg)`
+  transform: `rotate(10.37deg)`,
 });
 
 const LetSStartYourNftJourSpan1 = styled("span")({
@@ -112,7 +112,7 @@ const LetSStartYourNftJourSpan1 = styled("span")({
   fontSize: `81px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const LetSStartYourNftJourSpan2 = styled("span")({
@@ -124,7 +124,7 @@ const LetSStartYourNftJourSpan2 = styled("span")({
   fontSize: `81px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const LetSStartYourNftJourSpan3 = styled("span")({
@@ -136,7 +136,7 @@ const LetSStartYourNftJourSpan3 = styled("span")({
   fontSize: `81px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const LetSStartYourNftJourSpan4 = styled("span")({
@@ -148,7 +148,7 @@ const LetSStartYourNftJourSpan4 = styled("span")({
   fontSize: `81px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const LetSStartYourNftJour = styled("div")({
@@ -167,7 +167,7 @@ const LetSStartYourNftJour = styled("div")({
   height: `353px`,
   position: `absolute`,
   left: `1124px`,
-  top: `229px`
+  top: `229px`,
 });
 
 const MostPowerfulNftDesigSpan1 = styled("span")({
@@ -179,7 +179,7 @@ const MostPowerfulNftDesigSpan1 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const MostPowerfulNftDesigSpan2 = styled("span")({
@@ -191,7 +191,7 @@ const MostPowerfulNftDesigSpan2 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const MostPowerfulNftDesigSpan3 = styled("span")({
@@ -203,7 +203,7 @@ const MostPowerfulNftDesigSpan3 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const MostPowerfulNftDesig = styled("div")({
@@ -222,7 +222,7 @@ const MostPowerfulNftDesig = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `1124px`,
-  top: `610px`
+  top: `610px`,
 });
 
 const Group1 = styled("div")({
@@ -237,7 +237,7 @@ const Group1 = styled("div")({
   width: `664px`,
   height: `94px`,
   left: `1124px`,
-  top: `700px`
+  top: `700px`,
 });
 
 const Rectangle2 = styled("div")({
@@ -249,7 +249,7 @@ const Rectangle2 = styled("div")({
   height: `94px`,
   position: `absolute`,
   left: `0px`,
-  top: `0px`
+  top: `0px`,
 });
 
 const SignUpWithGoogleSpan1 = styled("span")({
@@ -261,7 +261,7 @@ const SignUpWithGoogleSpan1 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const SignUpWithGoogleSpan2 = styled("span")({
@@ -273,7 +273,7 @@ const SignUpWithGoogleSpan2 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const SignUpWithGoogle = styled("div")({
@@ -292,7 +292,7 @@ const SignUpWithGoogle = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `248px`,
-  top: `30px`
+  top: `30px`,
 });
 
 const Q91 = styled("img")({
@@ -301,7 +301,7 @@ const Q91 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `166px`,
-  top: `11px`
+  top: `11px`,
 });
 
 const Group2 = styled("div")({
@@ -316,7 +316,7 @@ const Group2 = styled("div")({
   width: `664px`,
   height: `94px`,
   left: `1124px`,
-  top: `822px`
+  top: `822px`,
 });
 
 const SignUpWithEmailSpan1 = styled("span")({
@@ -328,7 +328,7 @@ const SignUpWithEmailSpan1 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const SignUpWithEmailSpan2 = styled("span")({
@@ -340,7 +340,7 @@ const SignUpWithEmailSpan2 = styled("span")({
   fontSize: `24px`,
   letterSpacing: `0px`,
   textDecoration: `none`,
-  textTransform: `none`
+  textTransform: `none`,
 });
 
 const SignUpWithEmail = styled("div")({
@@ -359,7 +359,7 @@ const SignUpWithEmail = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `248px`,
-  top: `30px`
+  top: `30px`,
 });
 
 const Q81Email = styled("img")({
@@ -368,7 +368,7 @@ const Q81Email = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `166px`,
-  top: `11px`
+  top: `11px`,
 });
 
 const Q101 = styled("div")({
@@ -384,7 +384,7 @@ const Q101 = styled("div")({
   height: `63px`,
   left: `166px`,
   top: `15px`,
-  overflow: `hidden`
+  overflow: `hidden`,
 });
 
 const Layer1 = styled("div")({
@@ -399,11 +399,11 @@ const Layer1 = styled("div")({
   width: `67.77px`,
   height: `62.79px`,
   left: `0px`,
-  top: `0px`
+  top: `0px`,
 });
 
 function SignUp1() {
-  const history = useHistory();
+  const history = useNavigate();
 
   const handleSignUpWithEmailClick = () => {
     history.push("/SignUp2"); // Redirect to SignUp2 page

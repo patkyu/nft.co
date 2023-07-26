@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import Q81Image from "./assets/images/SignUp1__8_1.png";
 
@@ -30,7 +30,7 @@ const SignUp21 = styled("div")({
   alignItems: `flex-start`,
   padding: `0px`,
   boxSizing: `border-box`,
-  overflow: `visible`
+  overflow: `visible`,
 });
 
 const Q81 = styled("img")({
@@ -39,7 +39,7 @@ const Q81 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `0px`,
-  top: `0px`
+  top: `0px`,
 });
 
 const Q11 = styled("img")({
@@ -48,7 +48,7 @@ const Q11 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `98px`,
-  top: `36px`
+  top: `36px`,
 });
 
 const Group12 = styled("div")({
@@ -63,7 +63,7 @@ const Group12 = styled("div")({
   width: `258px`,
   height: `84px`,
   left: `1530px`,
-  top: `60px`
+  top: `60px`,
 });
 
 const Rectangle1 = styled("div")({
@@ -75,7 +75,7 @@ const Rectangle1 = styled("div")({
   height: `84px`,
   position: `absolute`,
   left: `10px`,
-  top: `0px`
+  top: `0px`,
 });
 
 const LogIn = styled("div")({
@@ -94,7 +94,7 @@ const LogIn = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `0px`,
-  top: `22px`
+  top: `22px`,
 });
 
 const Q31 = styled("img")({
@@ -104,7 +104,7 @@ const Q31 = styled("img")({
   position: `absolute`,
   left: `121px`,
   top: `154px`,
-  transform: `rotate(10.37deg)`
+  transform: `rotate(10.37deg)`,
 });
 
 const Rectangle2 = styled("div")({
@@ -116,7 +116,7 @@ const Rectangle2 = styled("div")({
   height: `792px`,
   position: `absolute`,
   left: `1101px`,
-  top: `204px`
+  top: `204px`,
 });
 
 const Group3 = styled("div")({
@@ -131,7 +131,7 @@ const Group3 = styled("div")({
   width: `577px`,
   height: `86px`,
   left: `1151px`,
-  top: `384px`
+  top: `384px`,
 });
 
 const Rectangle3 = styled("img")({
@@ -140,7 +140,7 @@ const Rectangle3 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `1154px`,
-  top: `172px`
+  top: `172px`,
 });
 
 const Username = styled("div")({
@@ -159,7 +159,7 @@ const Username = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `31px`,
-  top: `23px`
+  top: `23px`,
 });
 
 const Group4 = styled("div")({
@@ -174,7 +174,7 @@ const Group4 = styled("div")({
   width: `577px`,
   height: `86px`,
   left: `1150px`,
-  top: `497px`
+  top: `497px`,
 });
 
 const Rectangle4 = styled("img")({
@@ -183,7 +183,7 @@ const Rectangle4 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `1154px`,
-  top: `285px`
+  top: `285px`,
 });
 
 const FullName = styled("div")({
@@ -202,7 +202,7 @@ const FullName = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `31px`,
-  top: `23px`
+  top: `23px`,
 });
 
 const Group5 = styled("div")({
@@ -217,7 +217,7 @@ const Group5 = styled("div")({
   width: `577px`,
   height: `86px`,
   left: `1150px`,
-  top: `610px`
+  top: `610px`,
 });
 
 const Rectangle5 = styled("img")({
@@ -226,7 +226,7 @@ const Rectangle5 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `1154px`,
-  top: `398px`
+  top: `398px`,
 });
 
 const EmailAddress = styled("div")({
@@ -245,7 +245,7 @@ const EmailAddress = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `31px`,
-  top: `23px`
+  top: `23px`,
 });
 
 const Group6 = styled("div")({
@@ -260,7 +260,7 @@ const Group6 = styled("div")({
   width: `577px`,
   height: `86px`,
   left: `1151px`,
-  top: `723px`
+  top: `723px`,
 });
 
 const Rectangle6 = styled("img")({
@@ -269,7 +269,7 @@ const Rectangle6 = styled("img")({
   objectFit: `cover`,
   position: `absolute`,
   left: `1154px`,
-  top: `511px`
+  top: `511px`,
 });
 
 const Password = styled("div")({
@@ -288,7 +288,7 @@ const Password = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `31px`,
-  top: `23px`
+  top: `23px`,
 });
 
 const SignUp = styled("div")({
@@ -307,7 +307,7 @@ const SignUp = styled("div")({
   height: `85px`,
   position: `absolute`,
   left: `1310px`,
-  top: `257px`
+  top: `257px`,
 });
 
 const Group7 = styled("div")({
@@ -322,7 +322,7 @@ const Group7 = styled("div")({
   width: `330px`,
   height: `78px`,
   left: `1275px`,
-  top: `859px`
+  top: `859px`,
 });
 
 const Rectangle7 = styled("div")({
@@ -334,7 +334,7 @@ const Rectangle7 = styled("div")({
   height: `78px`,
   position: `absolute`,
   left: `0px`,
-  top: `0px`
+  top: `0px`,
 });
 
 const GetAccessToday = styled("div")({
@@ -353,11 +353,11 @@ const GetAccessToday = styled("div")({
   height: `40px`,
   position: `absolute`,
   left: `35px`,
-  top: `19px`
+  top: `19px`,
 });
 
 function SignUp2() {
-  const history = useHistory();
+  const history = useNavigate();
 
   const handleLoginButtonClick = () => {
     history.push("/LogIn1"); // Redirect to LogIn1 page
